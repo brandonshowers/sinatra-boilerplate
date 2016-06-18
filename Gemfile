@@ -34,6 +34,7 @@ group :assorted do
     escape_utils/url/rack
     escape_utils/url/uri
   )
+  gem 'rake'
 end
 
 # assets

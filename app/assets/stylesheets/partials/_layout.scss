@@ -10,7 +10,7 @@ footer, header {
 #main {
   @include span($two-thirds);
 
-  @include susy-breakpoint($breakpoint, 12) {
+  @include susy-breakpoint($bp-min-max, 12) {
     @include span($total-columns);
   }
 }
@@ -18,7 +18,7 @@ footer, header {
 #sidebar {
   @include span($one-third omega);
 
-  @include susy-breakpoint($breakpoint, 12) {
+  @include susy-breakpoint($bp-min-max, 12) {
     @include span($total-columns);
   }
 }
